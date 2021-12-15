@@ -1,0 +1,14 @@
+@import "variables";
+
+@mixin t-color ($color) {
+
+    @if $color == rojo {
+        color: $rojo;
+    } @else if $color == verde {
+        color: $verde;
+    } @else if $color == blanco{
+        color: $blanco;
+    } @else {
+        color: $negro;
+    }
+}

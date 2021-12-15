@@ -1,0 +1,23 @@
+/*comentario de bloque*/
+//comentario de linea
+
+@import "bem";
+@import "colores";
+@import "medidas";
+
+.t-blanco{
+    @include t-color(blanco)
+}
+
+.t-rojo{
+    @include t-color(rojo)
+}
+
+.t-verde{
+    @include t-color(verde)
+}
+
+.t-negro{
+    @include t-color(negro)
+}
+
