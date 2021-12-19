@@ -123,27 +123,10 @@
 }
 
 
-/*bloque contact-content*/
-.contact-content{
-    margin: 0%;
-}
-
-/*elemento contact-content*/
-.contact-content__contact-a{
-    color: black;
-    font-style: normal;
-    text-align: center;
-    text-decoration: none;
-}
-
-.contact-content__contact-a:hover{
-    color:#80e645;
-}
-
-
 /*bloque footer*/
 .footer{
     background-image: linear-gradient(to bottom,#80e645, #0f6a02 );
+    margin-top: 5%;
 }
 /*elemento footer*/
 
@@ -153,8 +136,8 @@
     letter-spacing: 2px; 
     font-size: 35px;
     text-align: center;
-    margin-top: 2%;
-    margin-bottom: 1%;
+    padding-top: 2%;
+   
 }
 
 .footer__copyright{
@@ -179,12 +162,13 @@
 }
 
 .footer__icon-footer--icon-redes-footer{
-    font-size: 20px;
+    font-size: 25px;
     margin: 15px;
     width: 40px;
     height: 40px;
     color: white;
     text-align: center;
+    
 }
 .footer__icon-footer--icon-redes-footer:hover{
     color: black;
