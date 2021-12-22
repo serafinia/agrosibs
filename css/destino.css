@@ -295,7 +295,9 @@
   .img-section-servicios {
     align-items: center; }
   .equipo {
-    align-items: center; } }
+    align-items: center; }
+  .dato-contacto__contact-point {
+    text-align: center; } }
 
 /*tablet*/
 @media (min-width: 600px) and (max-width: 1023px) {
