@@ -1,6 +1,9 @@
 /*comentario de bloque*/
 /*bloques index*/
 /*bloque header*/
+.carousel-inner {
+  margin-top: 9vh; }
+
 .container-fluid {
   display: flex;
   justify-content: space-between; }
@@ -161,7 +164,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%; }
+  width: 100%;
+  align-items: center; }
 
 .img-equipo {
   height: 270px;
@@ -201,8 +205,11 @@
 .img-section-servicios {
   margin-bottom: 5%;
   margin-top: 2%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; }
 
 /*fin bloque asesoria tecnica*/
 /*bloques contacto.html*/
@@ -212,7 +219,8 @@
   margin: 5% 5% 0% 5%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  width: 100%; }
 
 .secondary-tittle {
   background-image: linear-gradient(to bottom, #80e645, #0f6a02);
@@ -223,6 +231,16 @@
   padding-bottom: 10%;
   text-align: center;
   margin-bottom: 0%; }
+
+.dato-contact {
+  width: 50%; }
+
+.form-content {
+  width: 50%; }
+
+.iframe-contacto-mapa {
+  width: 100vh;
+  height: 80vh; }
 
 /*elemento contacto*/
 .dato-contacto__contact-point {
@@ -293,9 +311,11 @@
   .responsive__content-index {
     align-items: center; }
   .img-section-servicios {
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
   .equipo {
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
   .dato-contacto__contact-point {
     text-align: center; } }
 

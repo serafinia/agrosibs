@@ -1,5 +1,9 @@
 /*bloques index*/
 /*bloque header*/
+
+.carousel-inner{
+    margin-top: 9vh;
+}
 .container-fluid{
     display: flex;
     justify-content: space-between;
@@ -190,6 +194,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    align-items: center;
     
 }
 
@@ -236,10 +241,13 @@
 }
 
 .img-section-servicios{
-margin-bottom: 5%;
-margin-top: 2%;
-display: flex;
-flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*fin bloque asesoria tecnica*/
@@ -254,6 +262,7 @@ flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 .secondary-tittle{
     background-image: linear-gradient(to bottom,#80e645,#0f6a02);
@@ -266,11 +275,25 @@ flex-wrap: wrap;
     margin-bottom: 0%;
 }
 
+.dato-contact{
+    width: 50%;
+}
+
+.form-content{
+    width: 50%;
+}
+
+.iframe-contacto-mapa{
+    width: 100vh;
+    height: 80vh;
+}
+
 /*elemento contacto*/
 .dato-contacto__contact-point{
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    
 }
 
 .secondary-content__map{
