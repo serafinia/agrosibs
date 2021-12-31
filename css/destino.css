@@ -383,8 +383,27 @@
   .news-content {
     align-items: center;
     justify-content: center; }
+  /* contacto */
   .dato-contacto__contact-point {
-    text-align: center; } }
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    text-align: center; }
+  .dato-contacto__list-contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    padding-bottom: 0%; }
+  .iframe-contacto-mapa {
+    margin-top: 0px;
+    padding-top: 0%;
+    width: 335px;
+    height: 335px;
+    display: flex;
+    justify-content: space-around; }
+  .form-content {
+    margin-top: 50px; } }
 
 /*tablet*/
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -394,8 +413,41 @@
     margin-top: 55px; }
   .responsive__content-index {
     align-items: center; }
+  /* contacto */
+  .dato-contacto__contact-point {
+    margin-top: 10px;
+    margin-left: 35%;
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0px;
+    text-align: center; }
+  .dato-contacto__list-contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    text-align: center; }
+  .iframe-contacto-mapa {
+    margin-top: 0px;
+    padding-top: 0%;
+    width: 500px;
+    height: 500px;
+    margin-left: 20%;
+    margin-right: 20%; }
+  .form-content {
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%; }
   .img-section-servicios {
-    align-items: center; } }
+    align-items: center;
+    justify-content: center; }
+  .equipo {
+    align-items: center;
+    justify-content: center; }
+  .news-content {
+    align-items: center;
+    justify-content: center; } }
 
 /*desktop*/
 @media (min-width: 1024px) {
