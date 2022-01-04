@@ -50,88 +50,100 @@
                 </div>
             </div>
         </nav>
+
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/img_contacto.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+        </div>
     </header>
-    <hr class="footer__line">
     <br>
     <!-- fin encabezado -->
 
     <!-- inicio cuerpo -->
-    <h1 class="secondary-tittle">CONTACTO</h1>
     <main class="secondary-content">
-        <div class="dato-contact">
-            <div class="dato-contacto__contact-point">
-                <h2 class="dato-contacto__contact-tittle">Datos de contacto</h2>
-                <ul class="dato-contacto__list-contact">
-                    <li>Teléfono: +54 9 2477 494168</li>
-                    <li><a href="https://wa.me/5492477559425" target="_blank" class="dato-contacto__list-contact--link-contact"> Whatsapp: +54 9 2477 559425</a></li>
-                    <li><a href="mailto:serafiniantonella@hotmail.com?Subject=asesoria%20tecnica" target="_blank" class="dato-contacto__list-contact--link-contact">Email: serafiniantonella@hotmail.com</a></li>
-                    <li>Dirección: Manuel Ocampo, Buenos Aires, Argentina </li>
-                </ul>
-            </div>
-
-            <!-- Mapa de google maps -->
-
-            <div class="secondary-content__map">
-                <iframe class="iframe-contacto-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1136.5646492098206!2d-60.65517770000002!3d-33.77435009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30cdfdf561b21c3!2zMzPCsDQ2JzI3LjciUyA2MMKwMzknMTUuMyJX!5e1!3m2!1ses-419!2sar!4v1639752945457!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-
-        <!-- formulario -->
-        <div class="form-content">
-            <h2 class="form-content__tittle-form">Dejanos tu consulta</h2>
-            <h2 class="form-content__tittle-form">Nos contacteremos con vos</h2>
-
-            <form action="">
-
-                <label for="name">Nombre*</label> <br>
-                <input type="text" name="name" required>
-                <br>
-                <label for="email">Email*</label> <br>
-                <input type="email" name="email" required>
-                <br>
-                <label for="location">Zona*</label><br>
-                <!-- menu desplegable -->
-                <select name="location" required>
-                    <option value=""></option>
-                    <option value="noa">NOA</option>
-                    <option value="nea-est">NEA Este</option>
-                    <option value="centro-norte-cordoba">Centro-Norte de Córdoba</option>
-                    <option value="nea-oeste">NEA Oeste</option>
-                    <option value="sur-cordoba">Sur de Córdoba</option>
-                    <option value="norte-pampa-oeste-bsas">Norte de la Pampa - Oeste de Bs. As.</option>
-                    <option value="santa-fe-centro">Santa Fe centro</option>
-                    <option value="nucleo-norte">Núcleo norte</option>
-                    <option value="nucleo-sur">Núcleo Sur</option>
-                    <option value="centro-este-entre-rios">Centro-Este de Entre Ríos</option>
-                    <option value="santa-fe-norte">Santa Fé norte</option>
-                    <option value="centr-bsas">Centro de Buenos Aires</option>
-                    <option value="sudestes-bsas-sur-pampa">Sudeste de Bs. As. - Sur de La Pampa</option>
-                    <option value="sudeste-bsas">Sudeste de Buenos Aires</option>
-                    <option value="san-luis">San Luis</option>
-                    <option value="cuenca-saldo">Cuenca del Salado</option>
-                    <option value="corrientes-misiones">Corrientes - Misiones</option>
-                </select>
-                    
-                <br>
-                <label for="phone">Teléfono</label> <br>
-                <input type="number" name="phone">
-                <br>
-                <label for="message">Mensaje*</label><br>
-                <textarea name="message" cols="50" rows="10" required></textarea> <br>
-
-                <!-- checkbox -->
-                <input type="checkbox" name="acepta" value="1" required> 
-                <div>Acepto condiciones de servicio y políticas de privacidad</div>
-                <br>
-                <!-- boton de enviar formulario -->
-                <input type="submit" value="Enviar" style="color:white; background-color: #0f6a02; border: #80e645;" > 
-                <input type="reset" value="Cancelar" style="color:white; background-color: #0f6a02; border:#80e645">
-                
-            </form>
-        </div>
+        <div class="contact-main">
         
+            <!-- formulario -->
+            <div class="form-content">
+                <h2 class="form-content__tittle-form">Dejanos tu consulta</h2>
+                <h2 class="form-content__tittle-form">Nos contacteremos con vos</h2>
+
+                <form action="">
+
+                    <label for="name">Nombre*</label> <br>
+                    <input type="text" name="name" size="37" required >
+                    <br>
+                    <label for="email">Email*</label> <br>
+                    <input type="email" name="email" size="37" required>
+                    <br>
+                    <label for="location">Zona*</label><br>
+                    <!-- menu desplegable -->
+                    <select name="location" class="location-list" required>
+                        <option value=""></option>
+                        <option value="noa">NOA</option>
+                        <option value="nea-est">NEA Este</option>
+                        <option value="centro-norte-cordoba">Centro-Norte de Córdoba</option>
+                        <option value="nea-oeste">NEA Oeste</option>
+                        <option value="sur-cordoba">Sur de Córdoba</option>
+                        <option value="norte-pampa-oeste-bsas">Norte de la Pampa - Oeste de Bs. As.</option>
+                        <option value="santa-fe-centro">Santa Fe centro</option>
+                        <option value="nucleo-norte">Núcleo norte</option>
+                        <option value="nucleo-sur">Núcleo Sur</option>
+                        <option value="centro-este-entre-rios">Centro-Este de Entre Ríos</option>
+                        <option value="santa-fe-norte">Santa Fé norte</option>
+                        <option value="centr-bsas">Centro de Buenos Aires</option>
+                        <option value="sudestes-bsas-sur-pampa">Sudeste de Bs. As. - Sur de La Pampa</option>
+                        <option value="sudeste-bsas">Sudeste de Buenos Aires</option>
+                        <option value="san-luis">San Luis</option>
+                        <option value="cuenca-saldo">Cuenca del Salado</option>
+                        <option value="corrientes-misiones">Corrientes - Misiones</option>
+                    </select>
+                        
+                    <br>
+                    <label for="phone">Teléfono</label> <br>
+                    <input type="number" name="phone" min="0" max="100" id="number">
+                    <br>
+                    <label for="message">Mensaje*</label><br>
+                    <textarea name="message" cols="39" rows="6" required></textarea> <br>
+
+                    <!-- checkbox -->
+                    <input type="checkbox" name="acepta" value="1" required> 
+                    <div>Acepto condiciones de servicio y políticas de privacidad</div>
+                    <div>* Campos obligatorios</div>
+                    <br>
+                    <!-- boton de enviar formulario -->
+                    <input type="submit" value="Enviar" class="button-form"> 
+                    <input type="reset" value="Cancelar" class="button-form">
+                    
+                </form>
+            </div>
+
+            <!-- dato contacto -->
+            <div class="dato-contact">
+                <div class="dato-contacto__contact-point">
+                    <h2 class="dato-contacto__contact-tittle">Datos de contacto</h2>
+                    <ul class="dato-contacto__list-contact">
+                        <li>Teléfono: +54 9 2477 494168</li>
+                        <li><a href="https://wa.me/5492477559425" target="_blank" class="dato-contacto__list-contact--link-contact"> Whatsapp: +54 9 2477 559425</a></li>
+                        <li><a href="mailto:serafiniantonella@hotmail.com?Subject=asesoria%20tecnica" target="_blank" class="dato-contacto__list-contact--link-contact">Email: serafiniantonella@hotmail.com</a></li>
+                        <li><a href="#map" class="dato-contacto__list-contact--link-contact">Dirección: Manuel Ocampo, Buenos Aires, Argentina</a> </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
     </main>
     <!-- fin cuerpo -->
+
+    <!-- Mapa de google maps -->
+
+    <div id="map"class="secondary-content__map-">
+        <iframe class="iframe-contacto-mapa-" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1136.5646492098206!2d-60.65517770000002!3d-33.77435009999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x30cdfdf561b21c3!2zMzPCsDQ2JzI3LjciUyA2MMKwMzknMTUuMyJX!5e1!3m2!1ses-419!2sar!4v1639752945457!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 
     <!-- inicio pie de pagina -->
     <footer class="footer">

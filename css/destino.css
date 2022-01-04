@@ -1,6 +1,9 @@
 /*comentario de bloque*/
 /*bloques index*/
 /*bloque header*/
+body {
+  background-color: #eff5cf; }
+
 .carousel-inner {
   margin-top: 60px; }
 
@@ -110,9 +113,12 @@
   align-self: center;
   padding-top: 5%; }
 
+.img_index_footer {
+  width: 100%; }
+
 /*bloque footer*/
 .footer {
-  background-image: linear-gradient(to bottom, #80e645, #0f6a02);
+  background-image: linear-gradient(to bottom, #0f6a02, #80e645);
   margin-top: 5%; }
 
 /*elemento footer*/
@@ -181,7 +187,9 @@
 .empresa-text {
   color: black;
   font-size: 20px;
-  text-align: center; }
+  text-align: center;
+  line-height: 2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 /*modificador empresa*/
 .secondary-content-emp__equipo-tittle {
@@ -221,28 +229,48 @@
   justify-content: space-between;
   flex-wrap: wrap; }
 
-.secondary-tittle {
-  background-image: linear-gradient(to bottom, #80e645, #0f6a02);
-  color: white;
-  width: 100%;
-  height: 15vh;
-  padding: 5%;
-  padding-bottom: 10%;
-  text-align: center;
-  margin-bottom: 0%; }
+.contact-main {
+  background-color: rgba(236, 233, 233, 0.952);
+  margin: 1% 0% 0% 0%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%; }
 
-.iframe-contacto-mapa {
-  width: 100vh;
-  height: 80vh; }
+.iframe-contacto-mapa- {
+  width: 100%;
+  height: 100%; }
+
+#number {
+  width: 24em; }
+
+.location-list {
+  width: 24em; }
+
+.button-form {
+  color: white;
+  background-color: #0f6a02; }
+
+.button-form:hover {
+  background-color: lightgrey;
+  color: #0f6a02; }
+
+.form-content {
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 /*elemento contacto*/
 .dato-contacto__contact-point {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: center;
+  align-content: center; }
 
-.secondary-content__map {
-  margin-top: 60px; }
+.secondary-content__map- {
+  width: 100%;
+  height: 50vh;
+  margin: 5% 0% 0% 0%; }
 
 .dato-contacto__contact-tittle {
   text-align: center;
@@ -250,7 +278,8 @@
 
 .dato-contacto__list-contact {
   list-style: none;
-  margin-top: 20px; }
+  margin-top: 20px;
+  line-height: 4; }
 
 /*modificador contacto*/
 .dato-contacto__list-contact--link-contact {
@@ -395,15 +424,16 @@
     flex-direction: column;
     padding-left: 0%;
     padding-bottom: 0%; }
-  .iframe-contacto-mapa {
-    margin-top: 0px;
-    padding-top: 0%;
-    width: 335px;
-    height: 335px;
-    display: flex;
-    justify-content: space-around; }
   .form-content {
-    margin-top: 50px; } }
+    margin-top: 50px; }
+  /*novedades*/
+  .iframe-video {
+    width: 100%;
+    height: 25vh; }
+  .news-article {
+    margin-bottom: 15%; }
+  .news-a {
+    font: size 0.50rem; } }
 
 /*tablet*/
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -428,13 +458,6 @@
     padding-left: 0%;
     padding-bottom: 0%;
     text-align: center; }
-  .iframe-contacto-mapa {
-    margin-top: 0px;
-    padding-top: 0%;
-    width: 500px;
-    height: 500px;
-    margin-left: 20%;
-    margin-right: 20%; }
   .form-content {
     margin-top: 50px;
     margin-left: 20%;
